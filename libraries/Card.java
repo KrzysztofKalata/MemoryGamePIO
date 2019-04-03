@@ -8,9 +8,9 @@ public class Card {
     public Card() {
         this.personal_id = hashCode();
     }
-    public Card(int id_card, boolean is_chosen) {
+    public Card(int id_card) {
         this.id_card = id_card;
-        this.is_chosen = is_chosen;
+        this.is_chosen = false;
         this.personal_id = hashCode();
     }
 
