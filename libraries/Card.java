@@ -1,41 +1,42 @@
-package main;
+package memoryGame;
 
 public class Card {
-    private int id_card = 0;
-    private boolean is_chosen = false;
-    private int personal_id = 0;
+    private int cardId = 0;
+    private int cardValue = 0;
+    private boolean isChosen = false;
 
     public Card() {
-        this.personal_id = hashCode();
-    }
-    public Card(int id_card) {
-        this.id_card = id_card;
-        this.is_chosen = false;
-        this.personal_id = hashCode();
+        this.cardId = hashCode();
     }
 
-    public int getId_card() {
-        return id_card;
+    public Card(int cardValue) {
+        this.cardId = hashCode();
+        this.cardValue = cardValue;
+        this.isChosen = false;
     }
 
-    public boolean getIs_chosen() {
-        return is_chosen;
+    public int getCardValue() {
+        return cardValue;
     }
 
-    public int getPersonal_id() {
-        return personal_id;
+    public void setCardValue(int cardValue) {
+        this.cardValue = cardValue;
     }
 
-    public void setId_card(int id_card) {
-        this.id_card = id_card;
+    public boolean getChosen() {
+        return isChosen;
     }
 
-    public void setIs_chosen(boolean is_chosen) {
-        this.is_chosen = is_chosen;
+    public void setChosen(boolean chosen) {
+        this.isChosen = chosen;
     }
 
-    public void setPersonal_id(int personal_id) {
-        this.personal_id = personal_id;
+    public int getCardId() {
+        return cardId;
+    }
+
+    public void setCardId(int cardId) {
+        this.cardId = cardId;
     }
 
 }
