@@ -27,7 +27,7 @@ public class SceneFour extends StackPane {
         Button backButton = new Button("Menu");
 
         ImageView imageView = new ImageView();
-        Image image = new Image("img/Twórcy.png");
+        Image image = new Image("img/Tworcy.png");
         imageView.setImage(image);
 
         backButton.setFont(Font.font(40));
