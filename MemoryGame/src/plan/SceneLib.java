@@ -50,20 +50,20 @@ public abstract class SceneLib {
     }
 
     public static void easy() {
-        SceneLib.setNumberOfPairs(5);
+        SceneLib.setNumberOfPairs(4);
         SceneLib.switchtoOne();
         primary.centerOnScreen();
     }
 
     public static void medium() {
 
-        SceneLib.setNumberOfPairs(10);
+        SceneLib.setNumberOfPairs(8);
         SceneLib.switchtoOne();
         primary.centerOnScreen();
     }
 
     public static void hard() {
-        SceneLib.setNumberOfPairs(15);
+        SceneLib.setNumberOfPairs(12);
         SceneLib.switchtoOne();
         primary.centerOnScreen();
     }
