@@ -26,8 +26,11 @@ public class SceneOne {
     private int points = 0;
     public int id=0;
 
-    
-    public Pane makeParent() {
+
+    public SceneOne(){};
+
+    public Pane makeParent()
+    {
         
         
         ley.setPrefSize(70 * dimension, 70 * dimension);
@@ -41,7 +44,6 @@ public class SceneOne {
             al.add(new card(new Image("img/"+idCard+".jpg"),i));
             
             al.add(new card(new Image("img/"+idCard+".jpg"),i));
-            int image = 1;
 
         }
       
@@ -73,16 +75,15 @@ public class SceneOne {
     public final class card extends StackPane {
 
         private Text sign = new Text();
-    //    private RectangleShape kasia=new RectangleShape();
         private Rectangle border = new Rectangle();
         public int id=3;
          ImagePattern image;
        private Rectangle lol = new Rectangle();
-        
-       public int getId(int i){
-         return i;  
-       }
-        public card(Image image,int id) {
+
+
+
+        public card(Image image,int id)
+        {
             
             
     lol= new Rectangle(60,60);
@@ -160,5 +161,47 @@ public class SceneOne {
 
         
     }
+        public int getNumberOfPairs()
+        {
+            return numberOfPairs;
+        }
+        public int getPoints()
+        {
+            return points;
+        }
+        public int getId()
+        {
+            return id;
+        }
+        public void setNumberOfPairs( int numberOfPairs)
+        {
+            this.numberOfPairs = numberOfPairs;
+        }
+        public void setPoints( int points)
+        {
+            this.points = points;
+        }
+        public void setId( int id)
+        {
+            this.id = id;
+        }
+
+        public int getBetterId(int id)
+        {
+            return id;
+        }
+
+        public double getDimension()
+        {
+            return dimension;
+        }
+
+        public card getIsChosen()
+        {
+            return isChosen;
+        }
+
+
+
 }
 
