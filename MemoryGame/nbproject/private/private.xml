@@ -3,16 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/SceneFour.java</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/SceneTwo.java</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/Main.java</file>
             <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/SceneThree.java</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/FXML/mainStackPane.fxml</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/FXML/MenuScreen.fxml</file>
+            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/Main.java</file>
+            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/SceneTwo.java</file>
             <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/SceneLib.java</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/plan/SceneOne.java</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/controllers/MainController.java</file>
-            <file>file:/Users/madzia/NetBeansProjects/MemoryGame/src/controllers/MenuController.java</file>
         </group>
     </open-files>
 </project-private>
