@@ -18,6 +18,7 @@ public class SceneFour extends StackPane {
 
     private Scene scene;
 
+
     public SceneFour() {
 
         VBox vbox = new VBox();
@@ -26,12 +27,11 @@ public class SceneFour extends StackPane {
         Button backButton = new Button("Menu");
 
         ImageView imageView = new ImageView();
-        Image image = new Image("img/Twórcy.png");
+     Image image = new Image("img/Twórcy.png");
         imageView.setImage(image);
 
         backButton.setFont(Font.font(40));
         backButton.setOnAction(event -> switchToMenu());
-        backButton.setFont(new Font("Jokerman", 30));
 
         stackPane.getChildren().add(backButton);
         vbox.getChildren().addAll(imageView, stackPane);
@@ -49,8 +49,8 @@ public class SceneFour extends StackPane {
 
         Stage window = (Stage) getScene().getWindow();
         window.setScene(scene);
-        window.centerOnScreen();
         window.show();
     }
 
 }
+
